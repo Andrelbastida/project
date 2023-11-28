@@ -1,0 +1,17 @@
+.formulario{
+    background-color: aqua;
+}
+label{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+input{
+    height: 20px;
+    
+}
