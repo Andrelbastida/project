@@ -6,5 +6,17 @@
     padding-right: 5%;
   }
   .aReceita{
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 83);
+    padding: 4%;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+  }
+  .aDespesa{
+    background-color: rgba(113, 8, 8, 0.498);
+    padding: 4%;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
   }

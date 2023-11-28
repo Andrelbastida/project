@@ -52,7 +52,9 @@ const App = () => {
               <p>Titular: {receita.nome}</p> 
               <p>Valor: {receita.valor}</p>  
               <p>Pago por: {receita.pagoPor}</p>
-              <button onClick={() => handleRemoverReceita(index)}>Remover</button>
+              <div className='divbutto'>
+                <button onClick={() => handleRemoverReceita(index)}>Remover</button>
+              </div>
             </div>
           ))}
         </div>
@@ -62,11 +64,13 @@ const App = () => {
         <h2>Despesas</h2>
         <ResultadoDespesas soma={calcularSomaDespesas()} />
         {despesas.map((despesa, index) => (
-          <div key={index} className='aReceita'>
+          <div key={index} className='aDespesa'>
             <p>Titular: {despesa.nome}</p> 
             <p>Valor: {despesa.valor}</p>  
             <p>Pago por: {despesa.pagoPor}</p>
-            <button onClick={() => handleRemoverDespesa(index)}>Remover</button>
+            <div className='divbutto'>
+              <button onClick={() => handleRemoverDespesa(index)}>Remover</button>
+            </div>
           </div>
         ))}
       </div>

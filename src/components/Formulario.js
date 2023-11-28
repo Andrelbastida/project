@@ -49,7 +49,9 @@ const Formulario = ({ onFormSubmit }) => {
         <input type="text" name="pagoPor" value={pagoPor} onChange={(e) => setPagoPor(e.target.value)} />
       </label>
       <br />
-      <button type="submit">Enviar</button>
+      <div className='divbutto'>
+        <button type="submit">Enviar</button>
+      </div>
     </form>
   );
 };
