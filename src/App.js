@@ -37,9 +37,10 @@ const App = () => {
   };
 
   return (
-    <div className='colunas'>
+    <div className='todoCorpo'>
+      <div className='colunas'>
       <div>
-        <h1>Formulário</h1>
+        <h2>Formulário</h2>
         <Formulario onFormSubmit={handleFormSubmit} />
       </div>
 
@@ -75,6 +76,8 @@ const App = () => {
         ))}
       </div>
     </div>
+    </div>
+    
   );
 };
 

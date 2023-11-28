@@ -4,6 +4,8 @@
     width: 300px;
     gap: 20px;
     border-radius: 15px;
+    color: aliceblue;
+    font-style: oblique;
 }
 label{
     font-size: large;
@@ -28,4 +30,5 @@ input{
 button{
     height: 30px;
     align-items: center;
+    border-radius: 5px;
 }

@@ -1,5 +1,6 @@
 *{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .App {
   text-align: center;
@@ -38,10 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-ul{
-  list-style: none;
-}
-li{
-  list-style: none;
 }

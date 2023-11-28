@@ -29,7 +29,7 @@ const Formulario = ({ onFormSubmit }) => {
         Nome:
         <input type="text" name="nome" value={nome} onChange={(e) => setNome(e.target.value)} />
       </label>
-      <br />
+      <br/>
       <label>
         Valor:
         <input type="text" name="valor" value={valor} onChange={(e) => setValor(e.target.value)} />
